@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+    tty: true
+    ports:
+        - "8888:8888"
+    container_name: painter
+    working_dir: /sandbox
+    volumes:
+      - .:/sandbox

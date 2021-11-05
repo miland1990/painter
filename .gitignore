@@ -1,0 +1,12 @@
+db.txt
+picture.txt
+.idea*
+*.pyc
+tmp/
+variables/dev.env
+__pycache__
+devops/.ansible
+.python-version
+
+# volumes
+__volumes/*
